@@ -1,0 +1,21 @@
+# 函數
+
+def add(a, b):
+    return a + b
+
+# print(add(5, 10))
+
+# Lambda 函數
+def do_something(func):
+    return func()
+
+def test():
+    return 15 + 20
+
+print(do_something(test))
+
+# lambda 參數1, 參數2...: ...
+
+add2 = lambda a, b: a + b
+
+print(add2(50, 30))

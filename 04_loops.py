@@ -30,10 +30,15 @@
 #     print(i)
 
 # WHILE 循環
+b = 0
 
-a = 0
+while b < 50:
+    print(b)
 
-while a < 20:
-    print(a)
+    b += 1
 
-a += 1# a = a + 1
+    if b == 30:
+        continue
+
+    print("Any code ...")
+
